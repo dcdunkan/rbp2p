@@ -1,6 +1,6 @@
 @import "tailwindcss";
-
 @import "tw-animate-css";
+@import "../static/fonts/fonts.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -164,6 +164,12 @@
 
 body {
 	letter-spacing: var(--tracking-normal);
+}
+
+@theme {
+	--font-sans:
+		"Recursive", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @layer base {
