@@ -39,7 +39,6 @@
 				<SettingsIcon />
 			</Button>
 		{/snippet}
-		<SettingsIcon />
 	</Dialog.Trigger>
 	<Dialog.Content>
 		<Dialog.Header>
